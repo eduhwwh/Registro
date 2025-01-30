@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    overflow: visible;
+    background: linear-gradient(to bottom, #87CEEB, #f0f8ff);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.inscricao h1{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+.container i {
+    font-size: 50px;
+    color: #007bff;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem 1.5rem;
+}
+
+.input-group i {
+    color: #40e0d0;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    flex: 1;
+    color: #333;
+    background: transparent;
+}
+
+/* Botão Submit */
+.submit-btn {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn:hover {
+    background: #0056b3;
+}
+.cancel-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.cancel-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
