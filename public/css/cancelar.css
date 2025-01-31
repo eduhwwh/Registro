@@ -26,22 +26,23 @@ body {
     width: 85%;
     max-width: 900px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .inscricao h1{
     flex: 1;
-    text-align: left;
-    padding-right: 7rem;
-    font-size: 3.1rem;
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
 }
 
 .container {
     flex: 1;
     background: white;
-    padding: 50px;
+    padding: 70px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
     max-width: 400px;
 }
 .container i {
@@ -57,7 +58,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 25px;
     margin-bottom: 1.5rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .input-group i {
@@ -69,16 +70,16 @@ body {
 .input-group input {
     border: none;
     outline: none;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     flex: 1;
     color: #333;
     background: transparent;
 }
 
 /* Botão Submit */
-.submit-btn {
+.submit-btn, .btn {
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
     border: none;
     border-radius: 25px;
@@ -86,51 +87,19 @@ body {
     width: 100%;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-}
-
-.btn {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 25px;
     background: #007bff;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
 }
 .btn:hover {
     background: #0056b3;
 }
 .cancel-link {
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .cancel-link a {
     color: #007bff;
     text-decoration: none;
     font-weight: bold;
-}
-
-/* Container dos aviões */
-#container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none; 
-    overflow: hidden;
-}
-
-/*Avião de papel */
-.paper-plane {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-image: url('../img/paper-plane.svg'); 
-    background-size: cover;
-    opacity: 1;
 }
 
 /* Responsividade */
@@ -141,8 +110,9 @@ body {
     }
     .inscricao h1 {
         text-align: center;
-        padding-right: 0;
+        padding: 0;
         margin-bottom: 20px;
+        font-size: 2.5rem;
     }
 }
 
@@ -158,7 +128,7 @@ body {
         font-size: 2rem;
     }
     .btn {
-        font-size: 14px;
+        font-size: 1.4rem;
         padding: 10px;
     }
 }
@@ -181,6 +151,6 @@ body {
         margin-bottom: 5px;
     }
     .btn {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
 }
